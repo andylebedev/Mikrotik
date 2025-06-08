@@ -1,10 +1,6 @@
 # Mikrotik
-Mikrotik configs
-# 2025-06-07 18:27:51 by RouterOS 7.14.3
-# software id = ELHR-FXHG
-#
-# model = C52iG-5HaxD2HaxD
-# serial number = 
+Mikrotik config for receiving internet over tethering wi-fi
+
 /interface bridge
 add admin-mac=F4:1E:57:04:5F:38 auto-mac=no comment=defconf name=bridge
 /interface list
