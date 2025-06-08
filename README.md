@@ -3,7 +3,7 @@ Mikrotik config for receiving internet over tethering wi-fi
 
 /interface bridge
 
-add admin-mac=F4:1E:57:04:5F:38 auto-mac=no comment=defconf name=bridge
+add admin-mac=F4:1 auto-mac=no comment=defconf name=bridge
 /interface list
 add comment=defconf name=WAN
 add comment=defconf name=LAN
